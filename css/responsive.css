@@ -1,0 +1,178 @@
+
+	/*		XL Device: 1200px. */
+	
+	@media (min-width: 1200px) and (max-width: 1500px ){
+		
+	
+	}
+	/*		LG Device: 992px. */
+	
+	@media (min-width: 992px) and (max-width: 1200px ){
+		.main-menu ul li {
+			margin-left: 20px;
+		}
+		.heir-btn {
+			margin-top: 36px;
+			margin-left: -6px;
+		}
+		.features-area {
+			margin-top: 0px;
+			padding-top: 100px;
+		}
+		.single-slider {
+			background-size: cover;
+			background-position: center;
+		}
+		.slider-inner h2 {
+			font-size: 45px;
+		}
+		.about-img img {
+			width: 100%;
+		}
+		
+		.blog-thumb img {
+			width: 100%;
+		}
+		
+	
+	
+	}
+	/*		MD Device: 768px. */
+	
+	@media (min-width: 768px) and (max-width: 991px ){
+		.slider-inner h2 {
+			font-size: 35px;
+		}
+		.slider-inner h2 {
+			margin-bottom: 15px;
+		}
+		.slider-inner p {
+			margin-bottom: 15px;
+		}
+		.single-features {
+			border-bottom: 1px solid #ddd;
+		}
+		.theme-bg .col-xl-4:last-child .single-features{
+			border: none;
+		}
+		.about-img {
+			margin-top: 35px;
+		}
+		.subscribe-form input {
+			width: 23%;
+		}
+		.single-slider {
+			background-size: cover;
+			background-position: center center;
+		}
+	
+	}
+	/*	Extra small Device  */
+	
+	@media  (max-width: 667px ){
+		.slider-inner h2 {
+			font-size: 30px;
+			margin-bottom: 15px;
+		}
+		.features-area {
+			margin-top: 0px;
+			padding-top: 100px;
+		}
+		.single-features {
+			border-bottom: 1px solid #ddd;
+		}
+		.theme-bg .col-xl-4:last-child .single-features{
+			border: none;
+		}
+		.about-img {
+			margin-top: 35px;
+		}
+		.about-img img {
+			width: 100%;
+		}
+		.subscribe-form input {
+			width: 100%;
+			margin-bottom: 10px;
+		}
+		.pricing-item {
+			width: 100%;
+		}
+		.blog-content {
+			margin: 0 !important;
+		}
+		.testimonial-item {
+			padding: 60px 30px;
+		}
+		.testimonial-area {
+			background-size: contain;
+			background-position: center center;
+		}
+		.copyrigh-text {
+			text-align: center;
+			margin-bottom: 10px;
+		}
+	
+	}
+
+	/* SM small Device: 550px. */
+	@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+		
+
+	}
+
+
+	
+	
+	/*		Tablet Layout: 768px. */
+	
+	@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+		
+
+	}
+	
+	
+	
+	/*		Mobile Layout: 320px.
+			Gutters: 24px.
+			Outer margins: 34px.
+			Inherits styles from: Default Layout.
+	---------------------------------------------
+	cols    1     2      3
+	px      68    160    252    */
+	
+	@media only screen and (max-width: 767px) {
+		
+		
+		
+	}
+	
+	
+	
+	/*		Wide Mobile Layout: 480px.
+			Gutters: 24px.
+			Outer margins: 22px.
+			Inherits styles from: Default Layout, Mobile Layout.
+	------------------------------------------------------------
+	cols    1     2      3      4      5
+	px      68    160    252    344    436    */
+	
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+	
+	}
+	
+	
+	/*	Retina media query.
+		Overrides styles for devices with a 
+		device-pixel-ratio of 2+, such as iPhone 4.
+	-----------------------------------------------    */
+	
+	@media 
+		only screen and (-webkit-min-device-pixel-ratio: 2),
+		only screen and (min-device-pixel-ratio: 2) {
+		
+		
+		
+	}
